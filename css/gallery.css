@@ -1,0 +1,35 @@
+/* CSS Document */
+
+.mainBox
+{
+	background-color:#00CEFF;
+	opacity: 0.8;
+}
+
+.gallery h3
+{
+	color:#FF8100;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align:center;
+	font-size:52px;
+	font-weight:bold;
+}
+
+.pic
+{
+	width: 150px;
+	height: 150px;
+}
+
+.picBig
+{
+	position: absolute;
+	width: 0px;
+	z-index: 10;
+}
+
+.pic:hover + .picBig
+{
+	width: 300px;
+	border: 4px solid black;
+}

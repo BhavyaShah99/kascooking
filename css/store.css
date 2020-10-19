@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+.Sidemenu h2
+{
+	color:#FA0004;
+	font-size:24px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+.Sidemenu h5
+{
+	color:#000000;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+.Sidemenu
+{
+	margin: 0px 10px;
+}
+
+.storeMain 
+{
+	background-color:#FFFFFF;
+	opacity: 0.2%;
+}
+
+.Buttons
+{
+	vertical-align: super;
+}
+
+.storeMain h3
+{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color:orangered;
+	font-size: 30px;
+	font-weight: bold;
+}

@@ -1,0 +1,146 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="UTF-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Gallery</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="../css/Styles.css" rel="stylesheet" type="text/css">
+
+<link href="../css/contact.css" rel="stylesheet" type="text/css">
+
+<link href="../css/about.css" rel="stylesheet" type="text/css">
+
+<link href="../css/gallery.css" rel="stylesheet" type="text/css">
+
+<link href="../css/recipe.css" rel="stylesheet" type="text/css">
+
+<link href="../css/store.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="Container"> <!--Main Container Div Starts-->
+
+<header>
+<div class="logo">
+	<div class="headAnimate">
+     	<img src="../images/ITGS%20WebLogo.png" alt="" class="webLogo">
+	</div>
+</div>
+<!-- InstanceBeginEditable name="navEditable" -->
+	<nav>
+  <ul class="topnav" id="myTopnav">
+    <li><a href="../index.html"><img src="../images/HomeButton.png" width="100" height="50"></a></li>
+    <li><a href="recipe.html"><img src="../images/RecipeButton.png" width="100" height="50"></a></li>
+    <li><a href="about.html"><img src="../images/AboutButton.png" width="100" height="50"></a></li>
+    <li><a href="contact.html"><img src="../images/ContactButton.png" width="100" height="50"></a></li>
+    <li class="active"><a href="gallery.html"><img src="../images/GalleryButton.png" width="100" height="50"></a></li>
+    <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
+  </ul>
+</nav>
+<!-- InstanceEndEditable -->
+</header>
+<!-- InstanceBeginEditable name="HeadMainEditableRegion" -->
+<section>
+<br>
+<br>
+<br>
+<table align="center" width="50%" height="900" class="mainBox">
+	<tr>
+		<td align="center" class="gallery" colspan="3"><h3>Image Gallery</h3></td>
+	</tr>
+	<div id="galleryImage">
+	<tr>
+		<td valign="middle" align="center">
+		<img  src="../images/gallery1.jpg" class="pic">
+		<img  src="../images/gallery1.jpg" class="picBig">
+		</td>
+		<td valign="middle" align="center">
+		<img src="../images/gallery2.jpg" class="pic">
+		<img src="../images/gallery2.jpg" class="picBig">
+		</td>
+		<td valign="middle" align="center">
+		<img src="../images/gallery3.jpg" class="pic">
+		<img src="../images/gallery3.jpg" class="picBig">
+		</td>
+	</tr>
+	<tr>
+		<td valign="middle" align="center">
+		<img src="../images/gallery4.jpg" class="pic">
+		<img src="../images/gallery4.jpg" class="picBig">
+		</td>
+		<td valign="middle" align="center">
+		<img src="../images/gallery5.jpg" class="pic">
+		<img src="../images/gallery5.jpg" class="picBig">
+		</td>
+		<td valign="middle" align="center">
+		<img src="../images/gallery6.jpg" class="pic">
+		<img src="../images/gallery6.jpg" class="picBig">
+		</td>
+	</tr>
+	<tr>
+		<td valign="middle" align="center">
+		<img src="../images/gallery7.jpg" class="pic">
+		<img src="../images/gallery7.jpg" class="picBig">
+		</td>
+		<td valign="middle" align="center">
+		<img src="../images/gallery8.jpg" class="pic">
+		<img src="../images/gallery8.jpg" class="picBig">
+		</td>
+		<td valign="middle" align="center">
+		<img src="../images/gallery9.jpg" class="pic">
+		<img src="../images/gallery9.jpg" class="picBig">
+		</td>
+	</tr>
+	<tr>
+		<td valign="middle" align="center">
+		<img src="../images/gallery10.jpg" class="pic">
+		<img src="../images/gallery10.jpg" class="picBig">
+		</td>
+		<td valign="middle" align="center">
+		<img src="../images/gallery11.jpg" class="pic">
+		<img src="../images/gallery11.jpg" class="picBig">
+		</td>
+		<td valign="middle" align="center">
+		<img src="../images/gallery12.jpg" class="pic">
+		<img src="../images/gallery12.jpg" class="picBig">
+		</td>
+	</tr>
+	</div>
+</table>
+
+<script type="text/javascript">
+	var image = document.getElementById("galleryImage").getElementsByTagName("img");
+	
+	images[i].onmouseover = function()
+			{
+				this.style.cursor = 'hand';
+				this.style.borderColor = "red";
+			}
+			
+			images[i].onmouseout = function()
+			{
+				this.style.cursor = 'pointer';
+				this.style.borderColor = 'white';
+			}
+</script>
+
+<br>
+<br>
+<br>
+</section>
+<!-- InstanceEndEditable -->
+<footer>
+	<table width="100%" height="10%" bgcolor="#000000">
+		<tr>
+			<td width="33.33333%" class="footer">Copyright © by Kavita Vikas Shah 2016</td>
+			<td width="33.33333%" class="footer"><a href="https://www.facebook.com/kavitaranka.shah?ref=br_rs" target="_blank"><img src="../images/fbIcon.png" width="30" height="30" alt=""></a></td>
+			<td width="33.33333%" class="footer">Designed and Developed by Bhavya Miten Shah</td>
+		</tr>
+	</table>
+</footer>
+</div>
+</body>
+<!-- InstanceEnd --></html>

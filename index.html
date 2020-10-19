@@ -1,0 +1,108 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="UTF-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Home</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="css/Styles.css" rel="stylesheet" type="text/css">
+
+<link href="css/contact.css" rel="stylesheet" type="text/css">
+
+<link href="css/about.css" rel="stylesheet" type="text/css">
+
+<link href="css/gallery.css" rel="stylesheet" type="text/css">
+
+<link href="css/recipe.css" rel="stylesheet" type="text/css">
+
+<link href="css/store.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="Container"> <!--Main Container Div Starts-->
+
+<header>
+<div class="logo">
+	<div class="headAnimate">
+     	<img src="images/ITGS%20WebLogo.png" alt="" class="webLogo">
+	</div>
+</div>
+<!-- InstanceBeginEditable name="navEditable" -->
+ <nav>
+  <ul class="topnav" id="myTopnav">
+    <li class="active"><a href="index.html"><img src="images/HomeButton.png" width="100" height="50"></a></li>
+    <li><a href="webpages/recipe.html"><img src="images/RecipeButton.png" width="100" height="50"></a></li>
+    <li><a href="webpages/about.html"><img src="images/AboutButton.png" width="100" height="50"></a></li>
+    <li><a href="webpages/contact.html"><img src="images/ContactButton.png" width="100" height="50"></a></li>
+    <li><a href="webpages/gallery.html"><img src="images/GalleryButton.png" width="100" height="50"></a></li>
+    <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
+  </ul>
+</nav>
+	<!-- InstanceEndEditable -->
+</header>
+<!-- InstanceBeginEditable name="HeadMainEditableRegion" -->
+<section onLoad="slideA()">
+
+<!--Slder JavaScript Starts-->
+<script type="text/javascript">
+
+var imagecount = 1;
+var total = 6;
+	
+function slide(x)
+	{
+		var Image = document.getElementById('img');
+		imagecount = imagecount + x;
+		if(imagecount > total)
+			{
+				imagecount = 1;
+			}
+		if(imagecount < 1)
+			{
+				imagecount = total;
+			}
+		Image.src = "images/galleryImages/img"+imagecount+".jpg";
+	}
+</script>
+<!--Slder JavaScript Ends-->
+
+<div align="center">
+<div id="sliderBox">
+	<img src="images/galleryImages/img1.jpg" id="img">
+	<div id="left_holder"><img onClick="slide(-1)" class="left" src="images/galleryImages/left_holder.jpg"></div>
+	<div id="right_holder"><img onClick="slide(1)" class="right" src="images/galleryImages/right_holder.jpg"></div>
+</div>
+</div>
+
+<div class="mainSec">
+<div class="secH3"><h3>Recipes Revealed:</h3></div>
+<table width="100%">
+	<tr>
+		<td width="33.3333%" style="background-color:#f5f5dc"><div class="foodName"><h4>Badaam Ka Sheera</h4><br><table class="tableInside"><tr><td><img src="images/badaamSheera.jpg"></td><td>How many times have you dismissed the thought of making your favourite Indian desserts at home because they take too long to prepare? Well, where there is a will, there is a way. Next time you feel like relishing some delicious Badam ka Sheera, try this quick and easy recipe, which enables you to make this fabulous saffron-tinged, rich almond sheera in minutes!</td></tr></table></div></td>
+		<td width="33.3333%" style="background-color:#FFFF99"><div class="foodName"><h5>Baked Chaklis</h5><br><table class="tableInside"><tr><td><img src="images/bakedChaklis.jpg"></td><td>This simple and delicious recipe is a real treat for weight watchers. Chaklis, the popular indian snack, is usually deep-fried and contains loads of calories. Here's how to make them with 1 tsp of oil to near perfection by baking them in an oven. Munch them at anytime of the day when hunger strikes.</td></tr></table></div></td>
+		<td width="33.3333%" style="background-color:#f5f5dc"><div class="foodName"><h4>Baby Corn Sticks</h4><br><table class="tableInside"><tr><td><img src="images/babyCorn.jpg"></td><td>Crunchy and tasty, these perfectly golden-coloured Baby Corn Fritters are a sight to behold and a treat to bite into! It is also quite easy to prepare, because the procedure does not require it to be marinated. Just mix, dip and fry – it’s as easy as that. Kids will love to have it as an After School Treats.</td></tr></table></div></td>
+	</tr>
+	<tr>
+		<td width="33.3333%" style="background-color:#FFFF99"><div class="foodName"><h5>Cheesy Tangy Dip</h5><br><table class="tableInside"><tr><td><img src="images/cheesyDip.jpg"></td><td>When you need a dip in a jiffy, look no further! A simple mix-and-serve job, the Cheesy Pepper Dip is a great combo for cream crackers and vegetable strips and is sure to be liked by all. Kids will love the cheesy feel, while adults will enjoy the peppery tinge.</td></tr></table></div></td>
+		<td width="33.3333%" style="background-color:#f5f5dc"><div class="foodName"><h4>Watermelon Feta Cheese Salad</h4><br><table class="tableInside"><tr><td><img src="images/fetaCheese.jpg"></td><td>Watermelon and cheese are an evergreen combo. Just two slices of watermelon salad with a slice of cheese makes a lovely snack, which everybody loves to enjoy when watermelons are in season.This Feta and watermelon salad is a more exotic and filling snack, which makes use of this all-time favourite combo.</td></tr></table></div>
+		<td width="33.3333%" style="background-color:#FFFF99"><div class="foodName"><h5>Cold Herb Salad</h5><br><table class="tableInside"><tr><td><img src="images/herbSalad.jpg"></td><td>This cold salad makes a beautiful dish on a lunch buffet table. Cooked fusilli is tossed in with broccoli, asparagus and lettuce. Top it up with cherry tomatoes and a thick cream-curd dressing for a soft’n’crunchy salad.</td></tr></table></div></td>
+	</tr>
+</table>
+</div>
+</section>
+<br>
+<!-- InstanceEndEditable -->
+<footer>
+	<table width="100%" height="10%" bgcolor="#000000">
+		<tr>
+			<td width="33.33333%" class="footer">Copyright © by Kavita Vikas Shah 2016</td>
+			<td width="33.33333%" class="footer"><a href="https://www.facebook.com/kavitaranka.shah?ref=br_rs" target="_blank"><img src="images/fbIcon.png" width="30" height="30" alt=""></a></td>
+			<td width="33.33333%" class="footer">Designed and Developed by Bhavya Miten Shah</td>
+		</tr>
+	</table>
+</footer>
+</div>
+</body>
+<!-- InstanceEnd --></html>

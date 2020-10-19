@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.aboutBox
+{
+	width:80%;
+	text-align:center;
+	background-color:#F4F4F4;
+	opacity:1;
+}
+
+.aboutPic
+{
+	background-color:#FFFFFF;
+}

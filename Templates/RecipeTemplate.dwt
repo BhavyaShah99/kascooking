@@ -1,0 +1,78 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../css/Styles.css" rel="stylesheet" type="text/css">
+
+<link href="../css/contact.css" rel="stylesheet" type="text/css">
+
+<link href="../css/about.css" rel="stylesheet" type="text/css">
+
+<link href="../css/gallery.css" rel="stylesheet" type="text/css">
+
+<link href="../css/recipe.css" rel="stylesheet" type="text/css">
+
+<link href="../css/store.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="Container"> <!--Main Container Div Starts-->
+<header>
+
+	<div class="logo">
+	<div class="headAnimate">
+     	<img src="../images/ITGS WebLogo.png" alt="" class="webLogo">
+	</div>
+</div>
+	
+<nav>
+  <ul class="topnav" id="myTopnav">
+    <li><a href="../index.html"><img src="../images/HomeButton.png" width="100" height="50"></a></li>
+    <li><a href="recipe.html"><img src="../images/RecipeButton.png" width="100" height="50"></a></li>
+    <li><a href="about.html"><img src="../images/AboutButton.png" width="100" height="50"></a></li>
+    <li><a href="contact.html"><img src="../images/ContactButton.png" width="100" height="50"></a></li>
+    <li><a href="gallery.html"><img src="../images/GalleryButton.png" width="100" height="50"></a></li>
+    <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
+  </ul>
+</nav>
+
+</header>
+
+<!-- TemplateBeginEditable name="RecipeEditable" -->
+<section>
+	<table>
+		<tr>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+		</tr>
+		<tr>
+			<td>
+			<br>
+			<br>
+			<a href="recipe.html"><img src="../images/backButton.jpg" width="80" height="40"></a>
+			</td>
+		</tr>
+	</table>
+</section>
+<!-- TemplateEndEditable -->
+
+<footer>
+	<table width="100%" height="10%" bgcolor="#000000">
+		<tr>
+			<td width="33.33333%" class="footer">Copyright © by Kavita Vikas Shah 2016</td>
+			<td width="33.33333%" class="footer"><a href="https://www.facebook.com/kavitaranka.shah?ref=br_rs" target="_blank"><img src="../images/fbIcon.png" width="30" height="30" alt=""></a></td>
+			<td width="33.33333%" class="footer">Designed and Developed by Bhavya Miten Shah</td>
+		</tr>
+	</table>
+</footer>
+</div>
+</body>
+</html>

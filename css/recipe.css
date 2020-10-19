@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+.recipe
+{
+	background-color:#FFFFFF;
+	opacity:0.9;
+}
+
+.td
+{
+	color:#0056FF;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.recipe h3
+{
+	font-family: "alex-brush";
+	color: purple;
+	font-size: 25px;
+}
+
+.recipe2
+{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.subRecipe h4
+{
+	font-family:"allura";
+	font-size: 20px;
+	color: #000000;
+	text-align: justify;
+}
+
+.subRecipe
+{
+	text-align: center;
+	vertical-align: middle;
+	opacity: 0.9;
+	padding: 0 20px;
+}
+
+.subRecipe h1
+{
+	font-size: 50px
+}
